@@ -1,0 +1,15 @@
+# Logs and backup files
+*.log
+backups/
+*.tar.gz
+
+# Credentials and private keys
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+
+# Temporary files
+*.tmp
